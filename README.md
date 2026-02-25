@@ -1,6 +1,8 @@
-# Gorkwheel
+Gorkball
 
-> **Gorkwheel — a Solana flywheel token with 1-minute reward accrual, AI-guided treasury logic, and strict on-chain guardrails.**
+Gorkball — a Solana powerball-style token where one random holder wins USDC at fixed intervals, guided by AI-assisted cadence logic and enforced fully on-chain.
+
+<p align="center"> <img src="gorkball.png" alt="Gorkball Logo" width="400"/> </p>
 
 ---
 
