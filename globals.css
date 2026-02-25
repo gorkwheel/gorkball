@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #080C10;
+}
+
+html {
+  background-color: var(--bg);
+  color: #E2E8F0;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Wallet adapter overrides */
+.wallet-adapter-button {
+  background: transparent !important;
+  border: 1px solid #1C2330 !important;
+  color: #E2E8F0 !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.875rem !important;
+  padding: 0.5rem 1.25rem !important;
+  border-radius: 0.375rem !important;
+  transition: border-color 150ms ease !important;
+}
+
+.wallet-adapter-button:hover {
+  border-color: #00E5FF !important;
+  background: transparent !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  background: #0D1117 !important;
+  border: 1px solid #1C2330 !important;
+}
+
+/* Accruing dot animation */
+@keyframes accrue-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+}
+
+.accrue-dot {
+  animation: accrue-pulse 1.5s ease-in-out infinite;
+}

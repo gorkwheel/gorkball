@@ -1,0 +1,24 @@
+# Solana / Anchor
+target/
+.anchor/
+**/*.so
+**/*.keypair.json
+
+# Node
+node_modules/
+dist/
+.next/
+logs/
+
+# Env
+.env
+.env.local
+.env.production
+
+# IDL (generated)
+target/idl/
+target/types/
+
+# OS
+.DS_Store
+Thumbs.db
