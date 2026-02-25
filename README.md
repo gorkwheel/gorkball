@@ -10,7 +10,7 @@ Gorkball — a Solana powerball-style token where one random holder wins USDC at
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                         Gorkwheel System                        │
+│                         Gorkball System                        │
 │                                                                 │
 │  ┌──────────────┐     ┌──────────────────┐                     │
 │  │  Gork AI API │────▶│   Keeper Bot      │                     │
@@ -83,7 +83,7 @@ pending_rewards = 0
 ## File Tree
 
 ```
-gorkwheel/
+Gorkball/
 ├── Anchor.toml
 ├── Cargo.toml
 ├── package.json
@@ -91,7 +91,7 @@ gorkwheel/
 ├── README.md
 │
 ├── programs/
-│   └── gorkwheel_program/
+│   └── Gorkball_program/
 │       ├── Cargo.toml
 │       └── src/
 │           ├── lib.rs                    # Program entrypoint
@@ -142,7 +142,7 @@ gorkwheel/
 │           └── docs.tsx                 # Protocol documentation
 │
 └── tests/
-    └── gorkwheel.ts                      # Anchor test suite
+    └── Gorkball.ts                      # Anchor test suite
 ```
 
 ---
@@ -161,7 +161,7 @@ gorkwheel/
 
 ```bash
 # 1. Clone and install root deps
-git clone <repo> && cd gorkwheel
+git clone <repo> && cd Gorkball
 yarn install
 
 # 2. Start local validator
